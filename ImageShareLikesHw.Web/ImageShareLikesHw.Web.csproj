@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ImageShareLikes.Data\ImageShareLikes.Data.csproj" />
+    <ProjectReference Include="..\ImageShareLikes.Data\ImageShareLikesHw.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikesHw.Web", "ImageShareLikesHw.Web\ImageShareLikesHw.Web.csproj", "{06A7B1DC-D06A-43A1-BB0F-0367283CE472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageShareLikesHw.Web", "ImageShareLikesHw.Web\ImageShareLikesHw.Web.csproj", "{06A7B1DC-D06A-43A1-BB0F-0367283CE472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikes.Data", "ImageShareLikes.Data\ImageShareLikes.Data.csproj", "{815CEF6A-DD05-42A8-B02D-F3DE8418AD47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageShareLikesHw.Data", "ImageShareLikes.Data\ImageShareLikesHw.Data.csproj", "{815CEF6A-DD05-42A8-B02D-F3DE8418AD47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
