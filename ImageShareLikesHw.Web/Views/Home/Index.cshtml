@@ -1,0 +1,17 @@
+﻿@using ImageShareLikes.Data;
+@model ImageViewModel
+
+@foreach(Image image in Model.Images)
+{
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+            <div class="bg-light p-4 rounded shadow mb-3" style="margin-bottom: 20px; text-align: center;">
+                <a href="/home/viewimage?id=@image.Id">
+                    <h3>@image.Title</h3>
+                    <h5>Uploaded at: @image.PostedDate</h5>
+                    <img style="width: 400px;" src="/images/@image.imagePath" />
+                </a>
+            </div>
+    </div>
+</div>
+}
